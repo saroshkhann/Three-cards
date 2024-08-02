@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(59, 56, 56, 0.904);
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.pic1 {
+  height: 10rem;
+  width: 20rem;
+}
+
+.card1 {
+  color: rgba(59, 56, 56, 0.904);
+  width: 19rem;
+  height: 27rem;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s;
+}
+
+.card1:hover {
+  transform: scale(1.1);
+}
+.heading1 {
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: lightgreen;
+  width: 10rem;
+  border-radius: 15px;
+  padding: 0.5rem;
+}
+
+.para1 {
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: rgb(236, 238, 144);
+  width: 15rem;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.para2 {
+  font-size: 1.4rem;
+  text-align: center;
+  background-color: rgb(245, 116, 29);
+  border-radius: 15px;
+  width: 19rem;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+}
+
+.text {
+  margin-top: 0.5rem;
+  height: 14rem;
+  width: 19rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.btn1 {
+  border: none;
+  outline: none;
+  background-color: #63c254;
+  width: 20rem;
+  height: 2rem;
+  margin-top: 0.6rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn1:hover {
+  background-color: #63b356;
+}
